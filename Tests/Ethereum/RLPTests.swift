@@ -47,7 +47,7 @@ class RLPTests: XCTestCase {
             RLP.encode(BigInt("010000000000000000000000000000000000000000000000000000000000000000", radix: 16)!)!.hexString,
             "a1010000000000000000000000000000000000000000000000000000000000000000"
         )
-        XCTAssertNil(RLP.encode(BigInt("-1")!))
+        XCTAssertNil(RLP.encode(BigInt("-1")))
     }
 
     func testLists() {
