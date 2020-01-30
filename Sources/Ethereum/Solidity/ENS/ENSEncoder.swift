@@ -9,7 +9,7 @@ import BigInt
 
 /// Encodes EthNameService function calls.
 /// https://github.com/ethereum/ens/blob/master/contracts/ENS.sol
-/// https://etherscan.io/address/0x314159265dd8dbb310642f98f50c066173c1259b#code
+/// https://etherscan.io/address/0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e#code
 public final class ENSEncoder {
     /// Encodes a function call to `resolver`
     ///
